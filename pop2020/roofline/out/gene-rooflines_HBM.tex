@@ -1,0 +1,16 @@
+\begin{table*}[htb]
+  \centering
+  \begin{tabular}{|l|r|rr|rr|rr|}
+  \hline
+  kernel & time (ms) & \multicolumn{2}{|c|}{flop rate (G/s)}& \multicolumn{2}{|c|}{memory rate (GB/s)} & \multicolumn{2}{|c}{AI} \\
+         &      & est. & mes. & est. & mes. & est. & mes. \\
+  \hline
+  dgdxy ij{\_}deriv & 0.923 & 333.2 & 333.2 & 679.2 & 697.1 & 0.491 & 0.478 \\
+  dgdxy update     & 1.059 &  96.8 &  96.8 & 786.8 & 784.4 & 0.123 & 0.123 \\
+  dgdxy fused      & 0.891 & 460.2 & 460.2 & 717.8 & 732.5 & 0.641 & 0.628 \\
+  dzv              & 1.187 & 539.9 & 539.9 & 523.7 & 520.8 &  1.03 &  1.04 \\
+  \hline
+  \end{tabular}
+  \caption{Tabular results from Summit single node roofline analysis. See Fig.~ef{fig:roofline_with_kernels}.}
+  \label{tab:roofline}
+\end{table*}
