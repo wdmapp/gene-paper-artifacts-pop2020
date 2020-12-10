@@ -61,8 +61,8 @@ def main():
 
     print(df_all[DISPLAY_FIELDS])
 
-    latex_table('gene-rooflines_HBM.tex', df_all)
-    roofline_df('gene-rooflines_HBM.pdf', df_all)
+    latex_table('out/gene-rooflines_HBM.tex', df_all)
+    roofline_df('out/gene-rooflines_HBM.pdf', df_all)
 
 
 class AI(object):
