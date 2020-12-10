@@ -1,0 +1,13 @@
+hsi/5.0.2.p5
+xalt/1.2.0
+lsf-tools/2.0
+darshan-runtime/3.1.7
+DefApps
+cuda/10.1.243
+nsight-compute/2020.1.0
+git/2.20.1
+gcc/8.1.1
+spectrum-mpi/10.3.1.2-20200121
+fftw/3.3.8
+netlib-scalapack/2.0.2
+netlib-lapack/3.8.0

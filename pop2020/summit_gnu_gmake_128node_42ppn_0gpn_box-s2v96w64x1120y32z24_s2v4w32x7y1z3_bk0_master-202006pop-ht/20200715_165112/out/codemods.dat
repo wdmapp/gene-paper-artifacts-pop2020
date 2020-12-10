@@ -1,0 +1,25 @@
+Code modifications relative to:
+GIT master 1078b07b92d62e2f8d09bbf5ee258224d93cfff4
+GENE 2.0 - alpha 0
+diff --git a/src/gene.F90 b/src/gene.F90
+index 358fd7f9b..ae5e42360 100644
+--- a/src/gene.F90
++++ b/src/gene.F90
+@@ -43,7 +43,7 @@ Program gene
+double precision:: wtime_start
+logical:: mult_par=.true.
+integer:: i_proc,i_group
+-  logical:: performance_output=.true.
++  logical:: performance_output=.false.
+integer:: gene_comm, comm_parall
+character(len=FILEEXT_MAX):: f_ext
+character(len=FILENAME_MAX):: ch_in
+@@ -286,7 +286,7 @@ Program gene
+end do
+else
+if (mype_gl.eq.0) then
+-        PERFOUT('GENE')
++        PERFOUT('t_loop')
+endif
+end if
+LIKWID_CLOSE

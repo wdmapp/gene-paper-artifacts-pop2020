@@ -1,0 +1,1 @@
++ bsub -P FUS123 -J summit_gnu_gmake_256node_42ppn_0gpn_box-s2v96w64x1120y32z48_s2v4w32x7y1z6_bk0_master-202006pop-ht-20200716_102254 -o job-output.txt -nnodes 256 -W 02:00 -alloc_flags smt1 -q debug job-jsrun.sh

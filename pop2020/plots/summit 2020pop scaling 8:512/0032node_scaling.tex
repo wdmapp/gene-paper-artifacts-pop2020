@@ -1,0 +1,26 @@
+\begin{table*}[htb]
+  \centering
+  \begin{tabular}{|l|rrr|}
+  \hline
+  region & CPU & GPU & Speedup \\
+  \hline
+  RK{\_}standard                                          &   2.52 &  0.27 &  9.47x \\
+  RK{\_}standard.calcaux                                  &   0.70 &  0.12 &  5.71x \\
+  RK{\_}standard.calcaux.h{\_}from{\_}f                   &   0.15 &  0.01 & 22.61x \\
+  RK{\_}standard.calcaux.fldsolve                         &   0.12 &  0.02 &  7.60x \\
+  RK{\_}standard.calcaux.ccdens                           &   0.20 &  0.06 &  3.30x \\
+  RK{\_}standard.calcaux.ccdens.sum{\_}vwsp               &   0.11 &  0.06 &  1.88x \\
+  RK{\_}standard.calcaux.calc{\_}df1                      &   0.17 &  0.03 &  5.45x \\
+  RK{\_}standard.calcaux.calc{\_}df1.ex{\_}v              &   0.03 &  0.01 &  2.07x \\
+  RK{\_}standard.calcaux.bar{\_}emf                       &   0.07 &  0.01 &  9.23x \\
+  RK{\_}standard.CalFRhs0                                 &   1.68 &  0.13 & 12.72x \\
+  RK{\_}standard.CalFRhs0.dzv{\_}ak                       &   0.19 &  0.01 & 31.09x \\
+  RK{\_}standard.CalFRhs0.dgdxy                           &   0.14 &  0.01 & 15.81x \\
+  RK{\_}standard.CalFRhs0.dchidxy                         &   0.11 &  0.01 & 12.40x \\
+  RK{\_}standard.CalFRhs0.add{\_}nl                       &   0.97 &  0.09 & 10.67x \\
+  RK{\_}standard.CalFRhs0.add{\_}nl.calc{\_}nl            &   0.94 &  0.08 & 11.54x \\
+  \hline
+  \end{tabular}
+  \caption{Tabular results from Summit single node run. Shows time per timestep in seconds for CPU and GPU runs, and the speedup achieved on GPU.}
+  \label{tab:single_node}
+\end{table*}

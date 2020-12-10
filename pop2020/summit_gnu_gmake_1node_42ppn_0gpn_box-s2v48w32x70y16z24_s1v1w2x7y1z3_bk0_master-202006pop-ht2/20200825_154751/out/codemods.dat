@@ -1,0 +1,28 @@
+Code modifications relative to:
+GIT master 1078b07b92d62e2f8d09bbf5ee258224d93cfff4
+GENE 2.0 - alpha 0
+diff --git a/src/files.mk b/src/files.mk
+index 866db8c31..73b9e8628 100644
+--- a/src/files.mk
++++ b/src/files.mk
+@@ -2757,6 +2757,7 @@ ifneq ($(strip $(USE_PERFLIB)),)
+endif
+ifeq ($(USE_PERFLIB),HT)
+PERFOBJECTS += $(OBJDIR)/HT_perf.o
++  PREPROC+= -DEXTENDED_PERF_API
+endif
+ifeq ($(USE_PERFLIB),scalasca)
+PERFOBJECTS += $(OBJDIR)/dummyperf.o $(OBJDIR)/dummyperf_addon.o
+diff --git a/src/gene.F90 b/src/gene.F90
+index 08521ca79..1b794244f 100644
+--- a/src/gene.F90
++++ b/src/gene.F90
+@@ -299,7 +299,7 @@ Program gene
+end do
+else
+if (mype_gl.eq.0) then
+-        PERFOUT('GENE')
++        PERFOUT('t_loop')
+endif
+end if
+LIKWID_CLOSE

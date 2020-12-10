@@ -1,0 +1,162 @@
+&parallelization
+n_procs_s =   2
+n_procs_v =   4
+n_procs_w =  16
+n_procs_x =   7
+n_procs_y =   1
+n_procs_z =   3
+n_procs_sim =   2688
+/
+
+&box
+n_spec =    2
+nx0    =  560
+nky0   =   32
+nz0    =   24
+nv0    =   96
+nw0    =   64
+
+kymin =   0.22738812E-01
+lv    =   5.00000    
+lw    =   16.0000    
+lx    =   240.000    
+x0    =   0.50000000    
+n0_global =      3
+/
+
+&in_out
+diagdir = './out//'
+
+read_checkpoint  = F
+write_checkpoint = F
+
+istep_field  =     100
+istep_mom    =    1000
+istep_nrg    =      10
+istep_vsp    =       0
+istep_schpt  =   20000
+
+write_std = T
+/
+
+&general
+nonlinear =   T
+x_local   = F
+comp_type = 'IV'
+perf_vec  =  1 1 1 1 2 1 1 1 1
+nblocks   =      24
+hypz_opt =   F
+hypz_compensation =   T
+
+timescheme = 'RK4'
+dt_max     =   0.1600E-04
+courant    =     1.25
+
+timelim    =      34000
+ntimesteps =        100
+underflow_limit =   0.1000E-09
+
+beta       =   0.10000000E-02
+debye2     =    0.0000000    
+collision_op = 'none'
+
+init_cond = 'db'
+
+hyp_x =    1.000    
+hyp_z_with_dz_prefactor = F
+hyp_z =    1.000    
+hyp_v_with_dv_prefactor = F
+hyp_v =   0.2000    
+
+perf_tsteps =  -1
+
+/
+
+&nonlocal_x
+u_buffer_size =   0.5000E-01
+ucoef_krook   =    5.000    
+rad_bc_type =  1
+/
+
+&geometry
+magn_geometry = 'circular'
+trpeps   =   0.18270000    
+major_R  =    1.0000000    
+minor_r  =   0.36550000    
+q_coeffs  =   0.85400000,   0.0000000,   2.1840000
+mag_prof   = T
+rhostar  =   0.27070000E-02
+dpdx_term= 'gradB_eq_curv'
+dpdx_pm  =    0.0000000    
+norm_flux_projection  = F
+sign_Ip_CW =       1
+sign_Bt_CW =       1
+/
+
+&species
+name   = 'ions'
+prof_type =  3
+kappa_T   =    6.9000000    
+LT_center =   0.50000000    
+LT_width  =   0.50000000E-01
+
+kappa_n   =    3.0000000    
+Ln_center =   0.50000000    
+Ln_width  =   0.50000000E-01
+
+delta_x_T  =   0.25000000    
+delta_x_n  =   0.25000000    
+
+mass   =    1.0000000    
+temp   =    1.0000000    
+dens   =    1.0000000    
+charge =    1.0000000    
+/
+
+&species
+name   = 'electrons'
+prof_type =  3
+kappa_T   =    6.9000000    
+LT_center =   0.50000000    
+LT_width  =   0.50000000E-01
+
+kappa_n   =    3.0000000    
+Ln_center =   0.50000000    
+Ln_width  =   0.50000000E-01
+
+delta_x_T  =   0.25000000    
+delta_x_n  =   0.25000000    
+
+mass   =   0.54460000E-03
+temp   =    3.0000000    
+dens   =    1.0000000    
+charge =   -1.0000000    
+/
+
+&info
+step_time  =     2.5666
+number of computed time steps =     100
+time for initial value solver =    256.655
+calc_dt = F
+nltdt_off = F
+init_time =   738.2939
+n_fields = 2
+n_moms   =  6
+nrgcols  = 10
+lx =   240.000    
+ly =   276.320    
+PRECISION  = DOUBLE
+ENDIANNESS = LITTLE
+OMP_NUM_THREADS =   1
+GIT_BRANCH = 63f76e5cb925613784302400492734def2c4b38b                    
+GIT_MASTER = 1078b07b92d62e2f8d09bbf5ee258224d93cfff4                    
+RELEASE = 2.0 - alpha 0
+/
+
+&units
+/
+
+&bsgrid
+is_bsg = F
+/
+

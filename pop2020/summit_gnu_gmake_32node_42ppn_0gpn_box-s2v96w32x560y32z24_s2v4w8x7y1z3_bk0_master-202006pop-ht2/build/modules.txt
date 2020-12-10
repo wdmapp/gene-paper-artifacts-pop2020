@@ -1,0 +1,12 @@
+hsi/5.0.2.p5
+xalt/1.2.0
+lsf-tools/2.0
+DefApps
+git/2.20.1
+nsight-compute/2020.1.0
+python/3.7.0-anaconda3-5.3.0
+gcc/8.1.1
+spectrum-mpi/10.3.1.2-20200121
+fftw/3.3.8
+netlib-scalapack/2.0.2
+netlib-lapack/3.8.0

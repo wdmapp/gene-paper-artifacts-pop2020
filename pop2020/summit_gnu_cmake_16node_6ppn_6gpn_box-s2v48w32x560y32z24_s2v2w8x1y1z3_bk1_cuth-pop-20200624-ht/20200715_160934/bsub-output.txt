@@ -1,0 +1,10 @@
+
+Batch job not submitted. Please address the following and resubmit: 
+--------------------------------------------------------------------
+
+**  Each user is allowed only 1 jobs in the debug queue in any state. 
+
+------------------------------------------------------------------
+Please contact help@olcf.ornl.gov if you need assistance. 
+
+Request aborted by esub. Job not submitted.

@@ -1,0 +1,19 @@
+\begin{table*}[htb]
+  \centering
+  \begin{tabular}{|c|rrr|rrr|rrr|rrr|}
+  \hline
+  $\#$nodes & \multicolumn{3}{|c|}{RHS} & \multicolumn{3}{|c|}{AUX}& \multicolumn{3}{|c|}{Other} & \multicolumn{3}{|c|}{Total} \\
+  & CPU & GPU & Speedup & CPU & GPU & Speedup & CPU & GPU & Speedup & CPU & GPU & Speedup \\
+  \hline
+     8    & 1.631 & 0.124 & 13.2x    & 0.626 & 0.072 &  8.7x    & 0.139 & 0.011 & 12.6x    & 2.396 & 0.207 & 11.6x \\
+    16    & 1.627 & 0.127 & 12.8x    & 0.691 & 0.103 &  6.7x    & 0.134 & 0.011 & 12.2x    & 2.452 & 0.241 & 10.2x \\
+    32    & 1.681 & 0.132 & 12.7x    & 0.702 & 0.123 &  5.7x    & 0.135 & 0.011 & 12.3x    & 2.518 & 0.266 &  9.5x \\
+    64    & 1.681 & 0.134 & 12.5x    & 0.723 & 0.132 &  5.5x    & 0.130 & 0.011 & 11.8x    & 2.534 & 0.277 &  9.1x \\
+   128    & 1.686 & 0.138 & 12.3x    & 0.849 & 0.268 &  3.2x    & 0.124 & 0.011 & 11.1x    & 2.658 & 0.417 &  6.4x \\
+   256    & 1.707 & 0.134 & 12.8x    & 0.905 & 0.346 &  2.6x    & 0.135 & 0.011 & 11.9x    & 2.746 & 0.491 &  5.6x \\
+   512    & 1.742 & 0.135 & 12.9x    & 0.910 & 0.306 &  3.0x    & 0.134 & 0.011 & 12.1x    & 2.786 & 0.453 &  6.2x \\
+  \hline
+  \end{tabular}
+  \caption{Tabular results from Summit scaling runs in Fig.~\ref{fig:summit_scaling}. Shows time per timestep in seconds for CPU and GPU runs, and the speedup achieved on GPU.}
+  \label{tab:scaling}
+\end{table*}

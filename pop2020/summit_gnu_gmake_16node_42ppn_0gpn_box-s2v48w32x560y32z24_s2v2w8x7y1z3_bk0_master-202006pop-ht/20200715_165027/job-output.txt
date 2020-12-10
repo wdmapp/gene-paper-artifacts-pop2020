@@ -1,0 +1,41 @@
+Starting js_task_info Wed Jul 15 16:54:30 EDT 2020
++ jsrun -n 16 -r 1 -a 42 -c 42 -g 0 -l gpu-cpu -d packed js_task_info
++ sort
++ set +x
+End js_task_info Wed Jul 15 16:54:31 EDT 2020
+Start jsrun Wed Jul 15 16:54:31 EDT 2020
++ jsrun -n 16 -r 1 -a 42 -c 42 -g 0 -l gpu-cpu -d packed ./gene
++ set +x
+End jsrun Wed Jul 15 17:20:07 EDT 2020
+Cleaning output (size 20G	out)...DONE
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@batch5>
+Subject: Job 225490: <summit_gnu_gmake_16node_42ppn_0gpn_box-s2v48w32x560y32z24_s2v2w8x7y1z3_bk0_master-202006pop-ht-20200715_165027> in cluster <summit> Done
+
+Job <summit_gnu_gmake_16node_42ppn_0gpn_box-s2v48w32x560y32z24_s2v2w8x7y1z3_bk0_master-202006pop-ht-20200715_165027> was submitted from host <login3> by user <bdallen> in cluster <summit> at Wed Jul 15 16:50:27 2020
+Job was executed on host(s) <1*batch5>, in queue <batch>, as user <bdallen> in cluster <summit> at Wed Jul 15 16:53:58 2020
+                            <42*a09n15>
+                            <42*c09n14>
+                            <42*c10n07>
+                            <42*c10n08>
+                            <42*c10n09>
+                            <42*c10n10>
+                            <42*c10n11>
+                            <42*c10n12>
+                            <42*f18n16>
+                            <42*h27n15>
+                            <42*h28n09>
+                            <42*h29n08>
+                            <42*h31n12>
+                            <42*h35n01>
+                            <42*h36n17>
+                            <42*h50n01>
+</ccs/home/bdallen> was used as the home directory.
+</gpfs/alpine/fus123/proj-shared/gene/bdallen/summit/202006pop-runs/summit_gnu_gmake_16node_42ppn_0gpn_box-s2v48w32x560y32z24_s2v2w8x7y1z3_bk0_master-202006pop-ht/20200715_165027> was used as the working directory.
+Started at Wed Jul 15 16:53:58 2020
+Terminated at Wed Jul 15 17:20:09 2020
+Results reported at Wed Jul 15 17:20:09 2020
+
+The output (if any) is above this job summary.
+

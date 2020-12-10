@@ -1,0 +1,1 @@
++ bsub -P FUS123 -J summit_gnu_cmake_8node_6ppn_6gpn_box-s2v48w32x280y32z24_s1v2w8x1y1z3_bk1_cuth-pop-20200624-ht-20200715_161017 -o job-output.txt -nnodes 8 -W 00:40 -alloc_flags smt1 job-jsrun.sh

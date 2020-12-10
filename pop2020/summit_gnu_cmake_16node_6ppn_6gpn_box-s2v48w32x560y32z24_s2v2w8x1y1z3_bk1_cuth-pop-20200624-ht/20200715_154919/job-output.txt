@@ -1,0 +1,41 @@
+Starting js_task_info Wed Jul 15 15:50:53 EDT 2020
++ jsrun -n 16 -r 1 -a 6 -c 6 -g 6 -l gpu-cpu -d packed '--smpiargs="-gpu"' js_task_info
++ sort
++ set +x
+End js_task_info Wed Jul 15 15:50:53 EDT 2020
+Start jsrun Wed Jul 15 15:50:53 EDT 2020
++ jsrun -n 16 -r 1 -a 6 -c 6 -g 6 -l gpu-cpu -d packed '--smpiargs="-gpu"' ./gene
++ set +x
+End jsrun Wed Jul 15 16:01:08 EDT 2020
+Cleaning output (size 1.4G	out)...DONE
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@batch1>
+Subject: Job 225300: <summit_gnu_cmake_16node_6ppn_6gpn_box-s2v48w32x560y32z24_s2v2w8x1y1z3_bk1_cuth-pop-20200624-ht-20200715_154919> in cluster <summit> Done
+
+Job <summit_gnu_cmake_16node_6ppn_6gpn_box-s2v48w32x560y32z24_s2v2w8x1y1z3_bk1_cuth-pop-20200624-ht-20200715_154919> was submitted from host <login3> by user <bdallen> in cluster <summit> at Wed Jul 15 15:49:19 2020
+Job was executed on host(s) <1*batch1>, in queue <debug>, as user <bdallen> in cluster <summit> at Wed Jul 15 15:50:22 2020
+                            <42*e26n18>
+                            <42*e27n01>
+                            <42*e27n03>
+                            <42*e27n04>
+                            <42*e27n05>
+                            <42*e27n06>
+                            <42*e27n07>
+                            <42*e27n08>
+                            <42*e27n09>
+                            <42*e27n10>
+                            <42*e27n11>
+                            <42*e27n12>
+                            <42*e27n13>
+                            <42*e27n14>
+                            <42*e27n15>
+                            <42*e27n16>
+</ccs/home/bdallen> was used as the home directory.
+</gpfs/alpine/fus123/proj-shared/gene/bdallen/summit/202006pop-runs/summit_gnu_cmake_16node_6ppn_6gpn_box-s2v48w32x560y32z24_s2v2w8x1y1z3_bk1_cuth-pop-20200624-ht/20200715_154919> was used as the working directory.
+Started at Wed Jul 15 15:50:22 2020
+Terminated at Wed Jul 15 16:01:09 2020
+Results reported at Wed Jul 15 16:01:09 2020
+
+The output (if any) is above this job summary.
+

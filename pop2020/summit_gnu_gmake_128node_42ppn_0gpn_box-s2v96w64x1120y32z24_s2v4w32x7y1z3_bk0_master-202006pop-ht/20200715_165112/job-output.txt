@@ -1,0 +1,153 @@
+Starting js_task_info Thu Jul 16 01:16:41 EDT 2020
++ jsrun -n 128 -r 1 -a 42 -c 42 -g 0 -l gpu-cpu -d packed js_task_info
++ sort
++ set +x
+End js_task_info Thu Jul 16 01:16:43 EDT 2020
+Start jsrun Thu Jul 16 01:16:43 EDT 2020
++ jsrun -n 128 -r 1 -a 42 -c 42 -g 0 -l gpu-cpu -d packed ./gene
++ set +x
+End jsrun Thu Jul 16 01:45:34 EDT 2020
+Cleaning output (size 158G	out)...DONE
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@batch2>
+Subject: Job 225493: <summit_gnu_gmake_128node_42ppn_0gpn_box-s2v96w64x1120y32z24_s2v4w32x7y1z3_bk0_master-202006pop-ht-20200715_165112> in cluster <summit> Done
+
+Job <summit_gnu_gmake_128node_42ppn_0gpn_box-s2v96w64x1120y32z24_s2v4w32x7y1z3_bk0_master-202006pop-ht-20200715_165112> was submitted from host <login3> by user <bdallen> in cluster <summit> at Wed Jul 15 16:51:13 2020
+Job was executed on host(s) <1*batch2>, in queue <batch>, as user <bdallen> in cluster <summit> at Thu Jul 16 01:16:08 2020
+                            <42*a08n13>
+                            <42*a08n14>
+                            <42*a08n15>
+                            <42*a10n01>
+                            <42*a10n02>
+                            <42*a10n03>
+                            <42*a10n04>
+                            <42*a30n09>
+                            <42*a30n13>
+                            <42*b01n11>
+                            <42*b02n04>
+                            <42*b02n05>
+                            <42*b02n06>
+                            <42*b02n07>
+                            <42*b34n05>
+                            <42*b35n17>
+                            <42*b35n18>
+                            <42*b36n01>
+                            <42*b36n02>
+                            <42*b36n03>
+                            <42*b36n04>
+                            <42*b36n05>
+                            <42*b36n06>
+                            <42*b36n07>
+                            <42*b36n08>
+                            <42*b36n09>
+                            <42*b36n10>
+                            <42*b36n11>
+                            <42*b36n12>
+                            <42*b36n13>
+                            <42*b36n14>
+                            <42*b36n15>
+                            <42*b36n16>
+                            <42*b36n17>
+                            <42*b36n18>
+                            <42*c01n01>
+                            <42*c01n02>
+                            <42*c01n03>
+                            <42*c06n14>
+                            <42*c06n15>
+                            <42*c06n16>
+                            <42*c06n17>
+                            <42*c06n18>
+                            <42*c07n01>
+                            <42*c07n02>
+                            <42*c07n03>
+                            <42*c07n04>
+                            <42*c07n05>
+                            <42*c07n06>
+                            <42*c07n07>
+                            <42*c07n08>
+                            <42*c07n09>
+                            <42*c07n10>
+                            <42*c07n11>
+                            <42*c07n12>
+                            <42*c07n13>
+                            <42*c07n14>
+                            <42*c07n15>
+                            <42*c07n16>
+                            <42*c07n17>
+                            <42*c09n07>
+                            <42*c09n08>
+                            <42*c09n09>
+                            <42*c09n10>
+                            <42*c09n11>
+                            <42*c09n12>
+                            <42*c09n16>
+                            <42*c09n17>
+                            <42*c09n18>
+                            <42*c10n01>
+                            <42*c10n02>
+                            <42*c10n03>
+                            <42*c10n04>
+                            <42*c10n05>
+                            <42*c10n06>
+                            <42*d10n09>
+                            <42*d36n05>
+                            <42*d36n06>
+                            <42*d36n07>
+                            <42*d36n08>
+                            <42*d36n09>
+                            <42*d36n10>
+                            <42*d36n11>
+                            <42*d36n12>
+                            <42*e27n06>
+                            <42*e27n07>
+                            <42*e27n08>
+                            <42*e27n09>
+                            <42*e27n10>
+                            <42*e27n11>
+                            <42*e27n12>
+                            <42*e27n13>
+                            <42*e27n14>
+                            <42*e27n15>
+                            <42*e27n16>
+                            <42*e28n08>
+                            <42*e32n16>
+                            <42*e33n15>
+                            <42*e33n18>
+                            <42*e34n10>
+                            <42*e34n11>
+                            <42*e34n12>
+                            <42*e34n13>
+                            <42*e34n14>
+                            <42*e34n15>
+                            <42*e34n17>
+                            <42*f08n15>
+                            <42*f08n16>
+                            <42*f08n17>
+                            <42*f08n18>
+                            <42*f09n01>
+                            <42*f09n02>
+                            <42*f09n03>
+                            <42*f09n04>
+                            <42*f09n05>
+                            <42*f09n06>
+                            <42*f13n03>
+                            <42*f13n04>
+                            <42*f14n07>
+                            <42*f14n08>
+                            <42*f17n07>
+                            <42*f17n08>
+                            <42*f17n09>
+                            <42*f17n10>
+                            <42*f17n11>
+                            <42*f17n12>
+                            <42*f17n13>
+                            <42*f17n14>
+</ccs/home/bdallen> was used as the home directory.
+</gpfs/alpine/fus123/proj-shared/gene/bdallen/summit/202006pop-runs/summit_gnu_gmake_128node_42ppn_0gpn_box-s2v96w64x1120y32z24_s2v4w32x7y1z3_bk0_master-202006pop-ht/20200715_165112> was used as the working directory.
+Started at Thu Jul 16 01:16:08 2020
+Terminated at Thu Jul 16 01:45:36 2020
+Results reported at Thu Jul 16 01:45:36 2020
+
+The output (if any) is above this job summary.
+

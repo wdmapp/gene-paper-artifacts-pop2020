@@ -1,0 +1,15 @@
+  nblocks:      48
+   1 1 1 1 1 1 1 1 1 : 2225.4136 MB, t =  2.857E+00 sec
+   2 1 1 1 1 1 1 1 1 : 2226.6636 MB, t =  2.862E+00 sec
+   3 1 1 1 1 1 1 1 1 : 2225.4136 MB, t =  2.854E+00 sec
+   3 2 1 1 1 1 1 1 1 : 2225.4136 MB, t =  2.848E+00 sec
+   3 2 2 1 1 1 1 1 1 : 2225.4282 MB, t =  2.866E+00 sec
+   3 2 1 1 2 1 1 1 1 : 2225.4136 MB, t =  2.818E+00 sec
+   3 2 1 1 2 1 2 1 1 : 2225.4136 MB, t =  2.856E+00 sec
+   3 2 1 1 2 1 1 2 1 : 2225.4136 MB, t =  2.831E+00 sec
+-------------------------------------------------------
+Choice for parallelization:    2   4  32   7   1   6
+Choice for alternative routines:  3 2 1 1 2 1 1 1 1
+nblocks =       48
+Time for chosen settings:  2.8179E+00
+using BLAS routines for (i,j) loops: yes

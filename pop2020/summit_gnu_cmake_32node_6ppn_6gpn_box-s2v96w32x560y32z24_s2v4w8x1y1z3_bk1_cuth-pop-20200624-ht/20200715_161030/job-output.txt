@@ -1,0 +1,57 @@
+Starting js_task_info Wed Jul 15 16:11:19 EDT 2020
++ jsrun -n 32 -r 1 -a 6 -c 6 -g 6 -l gpu-cpu -d packed '--smpiargs="-gpu"' js_task_info
++ sort
++ set +x
+End js_task_info Wed Jul 15 16:11:20 EDT 2020
+Start jsrun Wed Jul 15 16:11:20 EDT 2020
++ jsrun -n 32 -r 1 -a 6 -c 6 -g 6 -l gpu-cpu -d packed '--smpiargs="-gpu"' ./gene
++ set +x
+End jsrun Wed Jul 15 16:21:40 EDT 2020
+Cleaning output (size 14G	out)...DONE
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@batch2>
+Subject: Job 225369: <summit_gnu_cmake_32node_6ppn_6gpn_box-s2v96w32x560y32z24_s2v4w8x1y1z3_bk1_cuth-pop-20200624-ht-20200715_161030> in cluster <summit> Done
+
+Job <summit_gnu_cmake_32node_6ppn_6gpn_box-s2v96w32x560y32z24_s2v4w8x1y1z3_bk1_cuth-pop-20200624-ht-20200715_161030> was submitted from host <login3> by user <bdallen> in cluster <summit> at Wed Jul 15 16:10:30 2020
+Job was executed on host(s) <1*batch2>, in queue <batch>, as user <bdallen> in cluster <summit> at Wed Jul 15 16:10:47 2020
+                            <42*a30n13>
+                            <42*c07n04>
+                            <42*c07n05>
+                            <42*c07n06>
+                            <42*c07n07>
+                            <42*c07n08>
+                            <42*c07n09>
+                            <42*c07n10>
+                            <42*c07n11>
+                            <42*c07n12>
+                            <42*c07n13>
+                            <42*c07n14>
+                            <42*c07n15>
+                            <42*c07n16>
+                            <42*c09n07>
+                            <42*c09n08>
+                            <42*c09n09>
+                            <42*c09n10>
+                            <42*c09n11>
+                            <42*c09n12>
+                            <42*c09n13>
+                            <42*c09n14>
+                            <42*c09n15>
+                            <42*c09n16>
+                            <42*c09n17>
+                            <42*c09n18>
+                            <42*c10n01>
+                            <42*c10n02>
+                            <42*c10n03>
+                            <42*c10n04>
+                            <42*c10n05>
+                            <42*c10n06>
+</ccs/home/bdallen> was used as the home directory.
+</gpfs/alpine/fus123/proj-shared/gene/bdallen/summit/202006pop-runs/summit_gnu_cmake_32node_6ppn_6gpn_box-s2v96w32x560y32z24_s2v4w8x1y1z3_bk1_cuth-pop-20200624-ht/20200715_161030> was used as the working directory.
+Started at Wed Jul 15 16:10:47 2020
+Terminated at Wed Jul 15 16:21:42 2020
+Results reported at Wed Jul 15 16:21:42 2020
+
+The output (if any) is above this job summary.
+

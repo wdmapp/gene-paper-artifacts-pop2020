@@ -1,0 +1,89 @@
+Starting js_task_info Wed Jul 15 16:22:28 EDT 2020
++ jsrun -n 64 -r 1 -a 6 -c 6 -g 6 -l gpu-cpu -d packed '--smpiargs="-gpu"' js_task_info
++ sort
++ set +x
+End js_task_info Wed Jul 15 16:22:29 EDT 2020
+Start jsrun Wed Jul 15 16:22:29 EDT 2020
++ jsrun -n 64 -r 1 -a 6 -c 6 -g 6 -l gpu-cpu -d packed '--smpiargs="-gpu"' ./gene
++ set +x
+End jsrun Wed Jul 15 16:33:22 EDT 2020
+Cleaning output (size 35G	out)...DONE
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@batch3>
+Subject: Job 225405: <summit_gnu_cmake_64node_6ppn_6gpn_box-s2v96w64x560y32z24_s2v4w16x1y1z3_bk1_cuth-pop-20200624-ht-20200715_162029> in cluster <summit> Done
+
+Job <summit_gnu_cmake_64node_6ppn_6gpn_box-s2v96w64x560y32z24_s2v4w16x1y1z3_bk1_cuth-pop-20200624-ht-20200715_162029> was submitted from host <login3> by user <bdallen> in cluster <summit> at Wed Jul 15 16:20:30 2020
+Job was executed on host(s) <1*batch3>, in queue <batch>, as user <bdallen> in cluster <summit> at Wed Jul 15 16:21:56 2020
+                            <42*b31n05>
+                            <42*b33n01>
+                            <42*c06n12>
+                            <42*c06n13>
+                            <42*c07n18>
+                            <42*c08n01>
+                            <42*c08n02>
+                            <42*c08n03>
+                            <42*c08n04>
+                            <42*c08n05>
+                            <42*c08n06>
+                            <42*c08n07>
+                            <42*c08n08>
+                            <42*c08n09>
+                            <42*c08n10>
+                            <42*c08n11>
+                            <42*c08n12>
+                            <42*c08n13>
+                            <42*c08n14>
+                            <42*c08n15>
+                            <42*c08n16>
+                            <42*c08n17>
+                            <42*c08n18>
+                            <42*c09n01>
+                            <42*c09n02>
+                            <42*c09n03>
+                            <42*c09n04>
+                            <42*c09n05>
+                            <42*d10n10>
+                            <42*d10n12>
+                            <42*e26n10>
+                            <42*e26n11>
+                            <42*e27n17>
+                            <42*e27n18>
+                            <42*e28n01>
+                            <42*e28n02>
+                            <42*e28n03>
+                            <42*e28n04>
+                            <42*e28n05>
+                            <42*e28n06>
+                            <42*e28n07>
+                            <42*f09n07>
+                            <42*f09n08>
+                            <42*f13n17>
+                            <42*f13n18>
+                            <42*f14n01>
+                            <42*f14n02>
+                            <42*f14n03>
+                            <42*f14n04>
+                            <42*f14n05>
+                            <42*f14n06>
+                            <42*f17n06>
+                            <42*g32n18>
+                            <42*g33n10>
+                            <42*g33n11>
+                            <42*g33n17>
+                            <42*h28n09>
+                            <42*h29n08>
+                            <42*h31n12>
+                            <42*h35n01>
+                            <42*h36n11>
+                            <42*h36n16>
+                            <42*h36n17>
+                            <42*h50n01>
+</ccs/home/bdallen> was used as the home directory.
+</gpfs/alpine/fus123/proj-shared/gene/bdallen/summit/202006pop-runs/summit_gnu_cmake_64node_6ppn_6gpn_box-s2v96w64x560y32z24_s2v4w16x1y1z3_bk1_cuth-pop-20200624-ht/20200715_162029> was used as the working directory.
+Started at Wed Jul 15 16:21:56 2020
+Terminated at Wed Jul 15 16:33:24 2020
+Results reported at Wed Jul 15 16:33:24 2020
+
+The output (if any) is above this job summary.
+

@@ -1,0 +1,26 @@
+Starting js_task_info Tue Aug 25 15:49:01 EDT 2020
++ jsrun -n 1 -r 1 -a 42 -c 42 -g 0 -l gpu-cpu -d packed js_task_info
++ sort
++ set +x
+End js_task_info Tue Aug 25 15:49:01 EDT 2020
+Start jsrun Tue Aug 25 15:49:01 EDT 2020
++ jsrun -n 1 -r 1 -a 42 -c 42 -g 0 -l gpu-cpu -d packed ./gene
++ set +x
+End jsrun Tue Aug 25 15:59:11 EDT 2020
+Cleaning output (size 1.3G	out)...DONE
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@batch5>
+Subject: Job 300777: <summit_gnu_gmake_1node_42ppn_0gpn_box-s2v48w32x70y16z24_s1v1w2x7y1z3_bk0_master-202006pop-ht2-20200825_154751> in cluster <summit> Done
+
+Job <summit_gnu_gmake_1node_42ppn_0gpn_box-s2v48w32x70y16z24_s1v1w2x7y1z3_bk0_master-202006pop-ht2-20200825_154751> was submitted from host <login3> by user <bdallen> in cluster <summit> at Tue Aug 25 15:47:51 2020
+Job was executed on host(s) <1*batch5>, in queue <batch>, as user <bdallen> in cluster <summit> at Tue Aug 25 15:48:32 2020
+                            <42*a30n01>
+</ccs/home/bdallen> was used as the home directory.
+</gpfs/alpine/fus123/proj-shared/gene/bdallen/summit/202006pop-runs/summit_gnu_gmake_1node_42ppn_0gpn_box-s2v48w32x70y16z24_s1v1w2x7y1z3_bk0_master-202006pop-ht2/20200825_154751> was used as the working directory.
+Started at Tue Aug 25 15:48:32 2020
+Terminated at Tue Aug 25 15:59:13 2020
+Results reported at Tue Aug 25 15:59:13 2020
+
+The output (if any) is above this job summary.
+
