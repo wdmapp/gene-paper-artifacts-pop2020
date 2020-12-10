@@ -18,8 +18,8 @@ runtags="nvroof_ncuroof_region-dgdxy nvroof_ncuroof_region-dzv_ak fused-roof2_nc
 out_dir="out"
 mkdir -p "$out_dir"
 
-# for each run tag, join the CSV files with flops and dram for each
-# desired ranks into one csv
+# For each run tag, join the CSV files with flops and dram for each
+# desired ranks into one CSV
 for runtag in $runtags; do
   # Note: can get header from any for the ranks
   for i in $ranks; do
