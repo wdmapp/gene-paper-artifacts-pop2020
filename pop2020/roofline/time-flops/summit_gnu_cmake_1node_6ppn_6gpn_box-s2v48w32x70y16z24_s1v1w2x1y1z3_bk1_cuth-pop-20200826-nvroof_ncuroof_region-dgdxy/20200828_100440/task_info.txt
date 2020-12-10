@@ -1,0 +1,6 @@
+Task 0 ( 0/6, 0/6 ) is bound to cpu[s] 0 on host h36n14 with OMP_NUM_THREADS=1 and with OMP_PLACES={0} and CUDA_VISIBLE_DEVICES=0,1,2,3,4,5
+Task 1 ( 1/6, 1/6 ) is bound to cpu[s] 4 on host h36n14 with OMP_NUM_THREADS=1 and with OMP_PLACES={4} and CUDA_VISIBLE_DEVICES=0,1,2,3,4,5
+Task 2 ( 2/6, 2/6 ) is bound to cpu[s] 8 on host h36n14 with OMP_NUM_THREADS=1 and with OMP_PLACES={8} and CUDA_VISIBLE_DEVICES=0,1,2,3,4,5
+Task 3 ( 3/6, 3/6 ) is bound to cpu[s] 88 on host h36n14 with OMP_NUM_THREADS=1 and with OMP_PLACES={88} and CUDA_VISIBLE_DEVICES=0,1,2,3,4,5
+Task 4 ( 4/6, 4/6 ) is bound to cpu[s] 92 on host h36n14 with OMP_NUM_THREADS=1 and with OMP_PLACES={92} and CUDA_VISIBLE_DEVICES=0,1,2,3,4,5
+Task 5 ( 5/6, 5/6 ) is bound to cpu[s] 96 on host h36n14 with OMP_NUM_THREADS=1 and with OMP_PLACES={96} and CUDA_VISIBLE_DEVICES=0,1,2,3,4,5
