@@ -1,5 +1,7 @@
 #!/bin/bash
 
+cd $(dirname $0)
+
 min=8
 max=512
 
@@ -30,12 +32,12 @@ mkdir -p "$outdir"
 RUNS="$(eval ls -d summit_gnu_*_{${node_pattern}}node_* | sort -n -t_ -k4 | tr '\n' ' ')"
 
 if [ -n "$detail" ]; then
-  ht_perf.py $RUNS -n --show-speedups \
+  ./ht_perf.py $RUNS -n --show-speedups \
     --legend-loc 'upper right' --dpi $dpi -r 2560x1440 \
     --title "GENE $plotname" -o "$outdir"/scaling.pdf -c "$outdir"/scaling.csv \
     -u $detail --per-ts
 else
-  ht_perf.py $RUNS -n \
+  ./ht_perf.py $RUNS -n \
     -o "$outdir"/scaling.pdf -c "$outdir"/scaling.csv -l "$outdir"/scaling.tex \
     --legend-loc 'upper right' --dpi $dpi -r 2560x1440 --per-ts --mpi \
     --annotate-total --font-size 12
@@ -45,7 +47,7 @@ fi
 
 i=$min
 while [ $i -le $max ]; do
-  ht_perf.py summit_*${i}node* > "$outdir"/compare_${i}.txt
+  ./ht_perf.py summit_*${i}node* > "$outdir"/compare_${i}.txt
   i=$((i*2))
 done
 
@@ -57,5 +59,5 @@ for run in $RUNS; do
   cp -v $run/parameters "$outdir"/parameters_${nodes}${gpu}
 done
 
-parabox_table.py -n "$outdir" > "$outdir"/table.txt
-parabox_table.py -n -g "$outdir" > "$outdir"/table-gpu.txt
+./parabox_table.py -n "$outdir" > "$outdir"/table.txt
+./parabox_table.py -n -g "$outdir" > "$outdir"/table-gpu.txt
