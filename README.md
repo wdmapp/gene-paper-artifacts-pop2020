@@ -24,7 +24,7 @@ files will be generated under the plots subdirectory.
 
 ## GENE roofline analysis
 
-See `roofline/README.md`.
+See [roofline/README.md](roofline/README.md).
 
 ## Structure of run directories
 
