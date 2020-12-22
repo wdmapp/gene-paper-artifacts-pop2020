@@ -8,18 +8,25 @@ The GENE code is open to everyone but requires first accepting the licensing
 terms, which can be done on the [GENE project website](http://genecode.org/).
 
 For questions regarding how to run GENE on GPU and how to reproduce these
-results, please contact Bryce Allen (bdallen at uchicago dot edu).
+results, please open an issue on the github project [issues
+page](https://github.com/wdmapp/gene-paper-artifacts-pop2020/issues).
 
-# GENE scaling analysis
+## License
+
+The GENE fusion code is licensed under a unique license, see
+[LICENSE.GENE](LICENSE.GENE). The scripts in this repository are licensed under
+the 3-clause BSD license. See the [LICENSE](LICENSE) file for details.
+
+## GENE scaling analysis
 
 To re-generate the results, run mkplots.sh. The plots and related data
 files will be generated under the plots subdirectory.
 
-# GENE roofline analysis
+## GENE roofline analysis
 
 See `roofline/README.md`.
 
-# Structure of run directories
+## Structure of run directories
 
 Run directories have the following naming structure:
 `{machine_name}_{compiler}_{make}_{nodes}node_{procs_per_node}ppn_{gpus_per_node}gpn_box-{box}_{para_str}_bk{nblocks}{version}`
