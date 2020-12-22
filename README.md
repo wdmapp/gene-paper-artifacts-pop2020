@@ -1,3 +1,15 @@
+# Overview
+
+This repository contains result data, post processing scripts, and build
+information for the paper
+"Exascale Whole-Device Modeling of Fusion Devices: Porting the GENE Gyrokinetic Microturbulence Code to GPU" in the 2020 special issue of Physics of Plasmas.
+
+The GENE code is open to everyone but requires first accepting the licensing
+terms, which can be done on the [GENE project website](http://genecode.org/).
+
+For questions regarding how to run GENE on GPU and how to reproduce these
+results, please contact Bryce Allen (bdallen at uchicago dot edu).
+
 # GENE scaling analysis
 
 To re-generate the results, run mkplots.sh. The plots and related data
